@@ -72,3 +72,24 @@ footer{
     color: maroon;
     text-align: center;
 }
+.notice-page-body{
+    padding: 3% 3%;
+}
+.notice-body{
+    border-radius: 6px;
+    border: 2px solid black;
+    padding: 0% 4%;
+}
+.notice-card{
+    background-color: rgb(227, 233, 238);
+}
+.announ-body{
+    border-radius: 6px;
+    border: 2px solid black;
+    padding: 0% 4%;
+    overflow-y: scroll;
+    height: 600px;
+}
+.announ-body::-webkit-scrollbar {
+    display: none;
+  }
