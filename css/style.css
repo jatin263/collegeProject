@@ -10,7 +10,7 @@ nav{
     color: aliceblue;
     padding: 1px;
 }
-nav ul{
+.nav-container{
     display: flex;
     justify-content: space-evenly;
 }
@@ -93,3 +93,27 @@ footer{
 .announ-body::-webkit-scrollbar {
     display: none;
   }
+.opp{
+    display: none;
+}
+nav:hover{
+    height: 20px;
+}
+.nav-home{
+    width: 150px;
+}
+
+.nav-home a{
+    color: wheat;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-home:hover .opp{
+    border: 2px solid black;
+    display: block;
+    background-color: aliceblue;
+    color: black;
+}
+
+
