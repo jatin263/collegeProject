@@ -116,4 +116,18 @@ nav:hover{
     color: black;
 }
 
+.frame{
+    margin: 5% 9%;
+    border: 1px solid gray;
+    width: 80%;
+    height: 600px;
+}
 
+.page-menu{
+    background-color: chocolate;
+    color: aliceblue;
+    position: relative;
+    top: 30%;
+    left: -5%;
+    width: 120px;
+}
